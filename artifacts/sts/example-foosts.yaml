@@ -1,0 +1,7 @@
+apiVersion: wxcontroller.k8s.io/v1alpha1
+kind: FooSts
+metadata:
+  name: example-foosts
+spec:
+  deploymentName: example-foosts
+  replicas: 2
